@@ -26,6 +26,8 @@ Using this extension will allow you to use your local VSCode installation to con
 3. Authenticate with your Coder account by entering `http://coder.ai.buas.nl` in the URL prompt, this will open a browser window where you can copy the API key and paste it back into VSCode.  
 4. Success! You will now see your workspaces and be able to connect to them directly from VSCode.  
 
+Note: you will have multiple Python installations available to you, but for Jupyter notebooks, use Python `3.11.13` from `/bin/python`, this is the same installation as used in the terminal.  
+![Python Interpreter](./assets/python_interpreter.png)  
 Additional setup (optional but recommended!):
 
 5. Run the workspace of your choosing, or create one by clicking the `+` button in the top right of the sidebar (this will open a browser window).

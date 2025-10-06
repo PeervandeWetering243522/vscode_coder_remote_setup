@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Setup Instructions](#setup-instructions)
+    - [Additional setup (optional but recommended!)](#additional-setup-optional-but-recommended)
   - [Notes](#notes)
   - [Final Words](#final-words)
 
@@ -28,18 +29,22 @@ Using this extension will allow you to use your local VSCode installation to con
 
 Note: you will have multiple Python installations available to you, but for Jupyter notebooks, use Python `3.11.13` from `/bin/python`, this is the same installation as used in the terminal.  
 ![Python Interpreter](./assets/python_interpreter.png)  
-Additional setup (optional but recommended!):
+
+### Additional setup (optional but recommended!)
 
 5. Run the workspace of your choosing, or create one by clicking the `+` button in the top right of the sidebar (this will open a browser window).
 6. Check out Aaron's git setup, I highly recommend following his instructions, as manually downloading/uploading is a lot more tedious than just using git.
     - [Aaron's Git Setup](https://github.com/AaronCiuffo245484/coder_ai_setup)
     - Tip: You can simply drag and drop files from your local machine into the VSCode file explorer to upload them to the server. Additionally, to download, you can right-click a file and select "Download".
-7. Once you have your git repo set up, I also recommend installing a handful of extensions.  
-I made a list of extensions that I personally use: [./extensions.json](./extensions.json).  
+7. Once you have your git repo set up, I also recommend installing a handful of extensions:  
+
+    I made a list of extensions that I personally use: [./extensions.json](./extensions.json).  
 To use this file, in the root of your project's directory (`/home/y2a/`), create a `.vscode/` folder and place the `extensions.json` file in there.  
 Then, in VSCode, head to the extensions tab and install the recommended extensions (see image).  
-![Install Recommended Extensions](./assets/recommended_extensions.png)  
-You can add extensions by finding them in the marketplace and clicking install, then adding them to the `extensions.json` file so they persist across autostops.
+
+    ![Install Recommended Extensions](./assets/recommended_extensions.png)  
+
+    You can add extensions by finding them in the marketplace and clicking install, then adding them to the `extensions.json` file so they persist across autostops (you'll have to install them again).
 
 Success! You can now use all your familiar extensions and settings in VSCode while running your code on the server.  
 

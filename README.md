@@ -35,7 +35,7 @@ Additional setup (optional but recommended!):
 7. Once you have your git repo set up, I also recommend installing a handful of extensions.  
 I made a list of extensions that I personally use: [./extensions.json](./extensions.json).  
 To use this file, in the root of your project's directory (`/home/y2a/`), create a `.vscode/` folder and place the `extensions.json` file in there.  
-Then, in VSCode, head to the extensions tab and install the recommended extensions (see image).
+Then, in VSCode, head to the extensions tab and install the recommended extensions (see image).  
 ![Install Recommended Extensions](./assets/recommended_extensions.png)  
 You can add extensions by finding them in the marketplace and clicking install, then adding them to the `extensions.json` file so they persist across autostops.
 
